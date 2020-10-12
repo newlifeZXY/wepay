@@ -1,0 +1,70 @@
+2020-10-12 21:24:54.421  INFO 20000 --- [main] com.bitsoft.wepay.WepayApplication       : Starting WepayApplication on jameszhang-NB with PID 20000 (D:\projects\wepay\out\production\classes started by jameszhang in D:\projects\wepay)
+2020-10-12 21:24:54.432  INFO 20000 --- [main] com.bitsoft.wepay.WepayApplication       : No active profile set, falling back to default profiles: default
+2020-10-12 21:24:55.948  INFO 20000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-12 21:24:55.963  INFO 20000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-12 21:24:55.963  INFO 20000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-10-12 21:24:56.461  INFO 20000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-12 21:24:56.461  INFO 20000 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1954 ms
+2020-10-12 21:24:56.633  INFO 20000 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-12 21:24:56.823  INFO 20000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-12 21:24:56.826  INFO 20000 --- [main] com.bitsoft.wepay.WepayApplication       : Started WepayApplication in 3.271 seconds (JVM running for 4.572)
+2020-10-12 21:25:21.745  INFO 20000 --- [http-nio-8080-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:418) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.34.jar:9.0.34]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.34.jar:9.0.34]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+
+2020-10-12 21:25:36.901  INFO 20000 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-12 21:25:36.901  INFO 20000 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-12 21:25:36.921  INFO 20000 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-10-12 21:27:02.680  INFO 18180 --- [main] com.bitsoft.wepay.WepayApplication       : Starting WepayApplication on jameszhang-NB with PID 18180 (D:\projects\wepay\out\production\classes started by jameszhang in D:\projects\wepay)
+2020-10-12 21:27:02.688  INFO 18180 --- [main] com.bitsoft.wepay.WepayApplication       : No active profile set, falling back to default profiles: default
+2020-10-12 21:27:04.254  INFO 18180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-12 21:27:04.271  INFO 18180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-12 21:27:04.271  INFO 18180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-10-12 21:27:04.689  INFO 18180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/wepay]  : Initializing Spring embedded WebApplicationContext
+2020-10-12 21:27:04.689  INFO 18180 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1927 ms
+2020-10-12 21:27:04.876  INFO 18180 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-12 21:27:05.079  INFO 18180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/wepay'
+2020-10-12 21:27:05.082  INFO 18180 --- [main] com.bitsoft.wepay.WepayApplication       : Started WepayApplication in 3.407 seconds (JVM running for 4.726)
+2020-10-12 21:27:28.930  INFO 18180 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/wepay]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-12 21:27:28.930  INFO 18180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-12 21:27:28.937  INFO 18180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-10-12 21:27:29.282  INFO 18180 --- [http-nio-8080-exec-1] c.b.w.controller.CashCouponController    : 请求对象:{
+  "id" : "5f8255cb-ddec-518b-b532-4c47be2dd8d2",
+  "create_time" : "2020-10-09T10:48:44+08:00",
+  "event_type" : "COUPON.USE",
+  "resource_type" : "encrypt-resource",
+  "summary" : "代金券核销通知",
+  "resource" : {
+    "algorithm" : "AEAD_AES_256_GCM",
+    "ciphertext" : "VA4Qj/9gzgkTP3cq8VcNk2SFaRsFjyuF3Gv3y5TR1vgf65kzIn+UvMyfx7K8NdIqKCuXv89egbLCLiEzELBa7NiTm//tq3rP0/gCKhULSkptPGKjvd8JkcyAwvf/MN40A1LQY5otExGnx3adXuk2tjY/+nByyrF3r+184Xexct1TqbkMTts5T/7cf1++Td9rSXlhUawUIW40DOZwAkO/y2sOKyX3a86159lUoKHy4UKhePK/LpDuFnzdO6hWMmdVEf6frohjw+fL3isFwqJsu42wTSyIbxQZA4B9PswuXiCaKRQskXIwuCm16YaXjl0Npfr4qZKIJDRit03CnKRt9P7zSiIy4il3pEDc77tWAae3XG8er8mQlM0+j+EQYI3MpOtI6IKpOR3faGVNoZUTwlijByJruv1jykmpskyAPxC0Y5XVIGus/hBi8L9lLSNOvvFpickDSaeXWLFcnKONtK9qc+VjfUBIvEsAqKSZlm000byIvYLAewNlNw0fHMhhk67jYLs1jOakPcskbX/A6DFsJ9W7ARFkkDoUdbZ2MmZVLmNC6LivMJBk09EdInln0TvPJQzoI0r64uzPNCHGyl9Q9l4p+jXXGHZk/3ABwoj+vo7MtZgB/vLG0Iwc2xq5wvHvJLNmRVzsdkoukJ8bnNJbCECqXupOq4/boWjZwJKxMO+BFm3AAC6VcAhglU8efNFuGduo64tTP0FIgwjE9F+wLlvEDeavaTQ89Wz63t1Q7MukZYGmIxAQPY0Sq8ZSA/YZmS7s+PVD36HApuUK",
+    "associated_data" : "coupon",
+    "nonce" : "TLjSrNz37jOd",
+    "original_type" : "coupon"
+  }
+},Wechatpay-Nonce:c5ac7061fccab6bf3e254dcf98995b8c,Wechatpay-Timestamp:1554209980,Wechatpay-Serial:4C6245223D3687AE39EADB6CC2DF75BD5B378F5C,Wechatpay-Signature:CtcbzwtQjN8rnOXItEBJ5aQFSnIXESeV28Pr2YEmf9wsDQ8Nx25ytW6FXBCAFdrr0mgqngX3AD9gNzjnNHzSGTPBSsaEkIfhPF4b8YRRTpny88tNLyprXA0GU5ID3DkZHpjFkX1hAp
+2020-10-12 21:35:04.367  INFO 20032 --- [main] com.bitsoft.wepay.WepayApplication       : Starting WepayApplication on jameszhang-NB with PID 20032 (D:\projects\wepay\out\production\classes started by jameszhang in D:\projects\wepay)
+2020-10-12 21:35:04.367  INFO 20032 --- [main] com.bitsoft.wepay.WepayApplication       : No active profile set, falling back to default profiles: default
+2020-10-12 21:35:05.992  INFO 20032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-12 21:35:06.008  INFO 20032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-12 21:35:06.008  INFO 20032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-10-12 21:35:06.430  INFO 20032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/wepay]  : Initializing Spring embedded WebApplicationContext
+2020-10-12 21:35:06.430  INFO 20032 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1985 ms
+2020-10-12 21:35:06.617  INFO 20032 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-12 21:35:06.852  INFO 20032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/wepay'
+2020-10-12 21:35:06.852  INFO 20032 --- [main] com.bitsoft.wepay.WepayApplication       : Started WepayApplication in 3.389 seconds (JVM running for 4.555)
+2020-10-12 21:36:10.518  INFO 6516 --- [Test worker] com.bitsoft.wepay.WepayApplicationTests  : Starting WepayApplicationTests on jameszhang-NB with PID 6516 (started by jameszhang in D:\projects\wepay)
+2020-10-12 21:36:10.518  INFO 6516 --- [Test worker] com.bitsoft.wepay.WepayApplicationTests  : No active profile set, falling back to default profiles: default
+2020-10-12 21:36:11.893  INFO 6516 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-12 21:36:12.190  INFO 6516 --- [Test worker] com.bitsoft.wepay.WepayApplicationTests  : Started WepayApplicationTests in 2.115 seconds (JVM running for 4.86)
+2020-10-12 21:36:12.507  INFO 6516 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
